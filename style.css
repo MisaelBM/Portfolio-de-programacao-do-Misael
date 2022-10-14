@@ -1,0 +1,149 @@
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, rgb(157, 196, 228), rgb(0, 150, 219));
+    font-size: 20px;
+}
+.btme {
+    border: 1px solid;
+    padding: 3px;
+    width: 80px;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mech {
+    display: none;
+}
+input:checked + .menuls nav {
+   display: block;
+}
+nav {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.863); 
+    width: 130px;
+    display: none;
+    padding: 10px;
+    margin-top: 75px;
+    border-radius: 5px;
+}
+.meli {  
+    text-decoration: none;
+    color: #fff;
+}
+.perimg {
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+    margin-left: -17rem;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 5px 15px 20px black;
+    margin-top: -3rem;
+}
+.nome {
+    color: rgb(230, 44, 44);
+    margin-top: -0.5rem;
+    margin-bottom: 0rem;
+    text-decoration: underline black;
+}
+.sbmim{
+    padding-top: 2px;
+    display: inline-block;
+    margin-right: 20rem;
+    padding-bottom: 4px;
+}
+.contato {
+    border: 0.1px solid;
+    width: 98%;
+    background-color: rgb(31, 153, 201);
+    padding: 15px;
+}
+.contatoli {
+    text-decoration: none;
+}
+.html {
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: rgb(165, 56, 42);
+}
+.css {
+    font-size: 20px;
+    background-color: rgb(0, 81, 255);
+    color: #fff;
+    height: 60px;
+    width:  100px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+.js {
+    font-size: 20px;
+    color: #000;
+    height: 60px;
+    width: 100px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.php {
+    font-size: 20px;
+    background-color: rgb(33, 33, 247);
+    color: #fff;
+    height: 60px;
+    width: 100px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+.lp {
+    border: 1px solid;
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.agen {
+    border: 1px solid;
+    max-width: 300px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.linkpro {
+    color: rgb(91, 80, 241);
+    text-decoration: none;
+}
+.despro {
+    padding: 15px;
+    border: 1px solid;
+    margin-top: 3.5rem;
+    background-image: linear-gradient(to right, rgb(99, 27, 89), rgb(78, 42, 112));
+    height: 95px;
+}
+.marhab {
+    color: rgb(37, 202, 125);
+}
+.trucop {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid;
+    width: 300px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.desprot {
+    padding: 15px;
+    border: 1px solid;
+    margin-top: 1rem;
+    background-image: linear-gradient(to right, rgb(99, 27, 89), rgb(78, 42, 112));
+    height: 130px;
+}
+.divisa {
+    margin-top: 6rem;
+}

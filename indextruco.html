@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador de truco</title>
+    <script src="codigotruco.js"></script>
+    <link rel="stylesheet" href="styletruco.css">
+</head>
+<body>
+    <center><h1 class="titr" id="ini">♠️ Truco ♠️</h1></center>
+    <center><h1>Duplas:</h1></center>
+    <center><div id="vstru" class="vstru"><h2>Truco!!</h2>
+        <h2>Quem ganhou?</h2>
+        <button onclick="nost()"><div id="nos"><h2>Nós</h2></div></button> <button onclick="corre()"><h3>Correram</h3></button> <button onclick="elest()"><div id="eles"><h2>Eles</h2></div></button> 
+    </div></center>
+    <center><div id="vsmtru"></div></center>
+    <center><div class="nosc"><h2 class="nos"><div id="nos">Nós</div></h2>
+    <button class="botmm" onclick="bman()">+</button>
+    <div id="vspn"><h2>0</h2></div>
+    <button class="botmm" onclick="bmen()">-</button>
+    </div> 
+    <div class="elesc"><h2 class="eles"><div id="eles">Eles</div></h2>
+    <button class="botmm" onclick="bmae()">+</button>
+    <div id="vspe"><h2>0</h2></div>
+    <button class="botmm" onclick="bmee()">-</button>
+    </div></center>
+    <center><h2><button class="bttru" onclick="Truco()">Truco</button></h2></center>
+    <hr>
+</body>
+</html>
